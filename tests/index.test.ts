@@ -1,5 +1,9 @@
-import { hello } from '../src/index';
+import { viewControlMixin, viewControlGetter } from '../src/index';
 
-test('hello is function', () => {
-    expect(typeof hello).toBe('function');
+test('viewControlMixin is function', () => {
+    expect(typeof viewControlMixin).toBe('function');
+});
+
+test('viewControlGetter is function', () => {
+    expect(typeof viewControlGetter).toBe('function');
 });
