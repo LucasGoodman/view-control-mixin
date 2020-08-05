@@ -5,6 +5,10 @@
 ## 特别鸣谢：
 [create-segma-app](https://github.com/RanSatious/create-segma-app)提供本项目模板
 
+## TODO
+- 单元测试
+- `mixinOption.storage`扩展对cookie的支持
+
 ## 仓库地址
 ```text
 https://github.com/LucasGoodman/view-control-mixin
