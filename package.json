@@ -1,0 +1,34 @@
+{
+    "name": "@segma/view-control-mixin",
+    "version": "0.0.1",
+    "description": "view-control-mixin",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "clean": "shx rm -rf dist/*",
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "prepack": "npm run clean && npm run build",
+        "test": "jest"
+    },
+    "keywords": [
+        "segma",
+        "typescript"
+    ],
+    "author": "Segma FED",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.11.0",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/preset-typescript": "^7.10.4",
+        "@types/jest": "^26.0.8",
+        "babel-jest": "^26.2.1",
+        "jest": "^26.2.1",
+        "shx": "^0.3.2",
+        "typescript": "^3.9.7"
+    },
+    "files": [
+        "dist"
+    ]
+}
