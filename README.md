@@ -28,7 +28,8 @@ npm i @segma/view-control-mixin
 ```javascript
 // 创建Mixin
 // src\plugins\mixins\view-control.js
-import { viewControlMixin } from '@segma/view-control';
+
+import { viewControlGetter } from '@segma/view-control-mixin';
 
 export default viewControlMixin();
 ```
@@ -36,8 +37,12 @@ export default viewControlMixin();
 ```javascript
 // 在需要控制菜单显隐的布局或组件中使用
 // src\components\layout\Default.vue
-import { viewControlGetter } from '@segma/view-control';
+
+import view_control from '../../plugins/mixins/view_control';
+import { viewControlGetter } from '@segma/view-control-mixin';
 /*code*/
+
+mixins: [auth, view_control],
 computed: {
     menuAndNavShow() {
         return viewControlGetter();
