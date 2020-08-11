@@ -76,3 +76,10 @@ const mixinOption: MixinOption = {
 };
 ```
 
+### 环境变量
+```text
+// .env.development
+
+VUE_APP_MENU_SHOW=0 // 关闭
+VUE_APP_MENU_SHOW=1 // 打开
+```
