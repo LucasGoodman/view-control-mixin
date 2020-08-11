@@ -27,7 +27,7 @@ npm i @segma/view-control-mixin
 ### 使用
 ```javascript
 // 创建Mixin
-// src\plugins\mixins\view-control.js
+// src\plugins\mixins\view_control.js
 
 import { viewControlGetter } from '@segma/view-control-mixin';
 

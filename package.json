@@ -1,6 +1,6 @@
 {
     "name": "@segma/view-control-mixin",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "view-control-mixin",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
