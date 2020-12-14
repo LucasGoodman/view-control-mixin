@@ -4,6 +4,7 @@
     <list default="true" id="3aa880ce-656a-4b65-bfee-a262df8f329c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +25,13 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="D:\Code\view-control\node_modules\typescript\lib" />
   </component>
@@ -45,6 +47,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="prepack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prepack" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.prepack" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\chenz\AppData\Roaming\Subversion</configuration>
   </component>
@@ -58,7 +77,8 @@
       <workItem from="1596614573662" duration="253000" />
       <workItem from="1597112717867" duration="56000" />
       <workItem from="1597112791826" duration="7000" />
-      <workItem from="1597114954791" duration="657000" />
+      <workItem from="1597114954791" duration="814000" />
+      <workItem from="1607933264257" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="feat(test config change):">
       <created>1596614697371</created>
@@ -88,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597115478854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(提升版本修改文档):">
+      <created>1597115648968</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597115648968</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +138,7 @@
     <MESSAGE value="feat(test config change):" />
     <MESSAGE value="feat(README): 更新文档" />
     <MESSAGE value="feat(版本): 0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(版本): 0.0.2" />
+    <MESSAGE value="feat(提升版本修改文档):" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(提升版本修改文档):" />
   </component>
 </project>

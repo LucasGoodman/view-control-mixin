@@ -44,10 +44,14 @@ const viewControlMixin = (option?: MixinOption): object => {
 const viewControlGetter = (): boolean => {
     let { env_key } = mixinOption;
     if (!env_key) {
-        console.log(`viewControlGetter doesn't without env_key`);
+        console.warn(`viewControlGetter doesn't without env_key`);
         return false;
     }
-    return string2boolean(getVal()) || string2boolean(process.env[env_key]);
+    if (getVal() !== '') {
+        return string2boolean(getVal());
+    } else {
+        return string2boolean(process.env[env_key]);
+    }
 };
 
 const getVal = (): string => {

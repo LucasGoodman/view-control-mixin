@@ -29,7 +29,7 @@ npm i @segma/view-control-mixin
 // 创建Mixin
 // src\plugins\mixins\view_control.js
 
-import { viewControlGetter } from '@segma/view-control-mixin';
+import { viewControlMixin } from '@segma/view-control-mixin';
 
 export default viewControlMixin();
 ```
